@@ -61,3 +61,25 @@ To obtains RQ3's results, we then require to re-run the code generation and add 
 ```
 python test_case_refine_code.py
 ```
+
+# Paper mentioned extra experiments
+
+## open-sourced models
+
+As mentioned in the experiment setup in the paper:
+```
+We do not report the results of open-sourced code generation models~(e.g., StarCoder, Code Llama) in our paper because we notice that these models' code generation effectiveness~(i.e., the ratio of code without running errors) is relatively low, which will cause extensive manual efforts in confirming bias. Nevertheless, we put the bias testing results for the code that can run from StarCoder and Code Llama on our GitHub Repo
+```
+
+We use following code generation script:
+```
+python open_source_generation.py
+```
+
+The code generation results of StarCoder and Code LLama are shown in:
+```
+codellama.json
+starcoder.json
+```
+
+We can find that most of the code generation results of these models are unuseful~(e.g., response focus on repeat prompt information). Based on these results, we do not report them in our paper since we believe these model currently need focus on code generation effectivness~(i.e., pass@1) rather than code bias score.

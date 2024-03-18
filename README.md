@@ -8,6 +8,7 @@ dataset.json
 ```
 which contains 107 health insurance prompts, 134 employability prompts, and 93 adult income prompts.
 
+
 ## Code Generation
 
 To generate code snippets with the code generation model, you can directly run the script:
@@ -83,3 +84,9 @@ starcoder.json
 ```
 
 We can find that most of the code generation results of these models are unuseful~(e.g., response focus on repeat prompt information). Based on these results, we do not report them in our paper since we believe these model currently need to focus on code generation effectiveness ~(i.e., pass@1) rather than code bias score.
+
+## ❗️Declaration of Limitations
+
+```
+Despite the diligent efforts of the two authors in manually evaluating each prompt for importance and bias, it is important to acknowledge the potential limitations of our review process. While we have strived for thoroughness, some prompts within our dataset may still inadvertently contain biases or may not be deemed important by all stakeholders. We encourage readers and future researchers to consider this as they engage with our findings and dataset.
+```

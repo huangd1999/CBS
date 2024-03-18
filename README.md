@@ -87,6 +87,4 @@ We can find that most of the code generation results of these models are unusefu
 
 ## ❗️Declaration of Limitations
 
-```
 Despite the diligent efforts of the two authors in manually evaluating each prompt for importance and bias, it is important to acknowledge the potential limitations of our review process. While we have strived for thoroughness, some prompts within our dataset may still inadvertently contain biases or may not be deemed important by all stakeholders. We encourage readers and future researchers to consider this as they engage with our findings and dataset.
-```

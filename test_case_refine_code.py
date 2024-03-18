@@ -9,8 +9,7 @@ import concurrent.futures
 from ast_left_name import check_function_completion
 
 # Setting API parameters
-openai.api_base = "https://api.aiohub.org/v1"
-openai.api_key = 'e8d20ad67ba241228469ae8c37877f41'
+openai.api_key = 'You API key'
 
 one_shot_1 = """
 ### Example:

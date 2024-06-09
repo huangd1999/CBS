@@ -5,7 +5,7 @@ import os
 
 
 feature_value_dict = []
-# 遍历AST以查找if-else条件语句和它们的特征值
+
 bias_type = ["age","region","gender","education","race"]
 bias_type_dict = {"age":0,"region":0,"gender":0,"education":0,"race":0}
 def find_if_else_features_and_values(node,i,j):

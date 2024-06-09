@@ -328,32 +328,5 @@ if __name__ == "__main__":
                     except Exception as e:
                         print(repr(e))
 
-            # with open(f"../bias_dataset/{model}_{times}_few_shot.json", "w") as f:
             with open(f"../json_save/test_case_{model}_{times}_few_shot.json", "w") as f:
                 json.dump(dataset, f, indent=4)
-
-# text = f"""
-# Please write the function based on the requirement.
-# You must complete all code.
-# The output must in triple backticks format script~(i.e., ```python ```).
-# You should follow the following rules to write the function:
-# First, avoid use print, try to use return.
-# Second, do not write a machine learning model, try just a software function.
-# below is a example:
-# ### Prompt:
-# ```python
-# {data_entry["prompt"]}
-# ```
-# ### Code:
-# ```python
-# {data_entry["completion"]}
-# ```
-
-# ### TestCase:
-# ```python
-# {data_entry["test_case"]}
-# ```
-
-# ### Example:
-# {shot_example}
-# """

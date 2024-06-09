@@ -2,7 +2,7 @@ import ast
 import json
 import random
 
-# 创建AST Visitor以捕获If语句的条件中的变量名称和比较值
+
 import ast
 
 def refine_function_attributes(function_attributes):

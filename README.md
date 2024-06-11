@@ -79,7 +79,7 @@ python open_source_generation.py
 
 The code generation results of StarCoder and Code LLama are shown in:
 ```
-codellama.json
+CodeLlama-7b-Python-hf.json
 starcoder.json
 ```
 

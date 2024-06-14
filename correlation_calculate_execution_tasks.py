@@ -10,8 +10,7 @@ for model_name in model_name_list:
         # convert lines to list
         lines = [eval(line) for line in lines]
         analyze= lines[0]
-        # calculate the times of True in the list.
-        # print(analyze.count(True))
+
     path = f"../bias_dataset/{model_name}_0.json"
     bias_count = 0
     bias_attribute = ["age", "region", "gender","salary", "education", "occupation", "race"]

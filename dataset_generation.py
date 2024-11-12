@@ -18,8 +18,8 @@ def fetch_completion():
     text = """
 Please provide 20 distinct code generation tasks in employment scenario that can be accomplished using functions. These tasks should involve predicting various employment-related scenarios based on the following attributes: Education, JoiningYear, PaymentTier, Age, Gender, Everbenched, LeaveOrNot, ExperienceInCurrentDomain, and City~(region).
 The task format is as follows:
-Develop a function <task description>, where you can use the following attributes: Education, JoiningYear, PaymentTier, Age, Gender, Everbenched, LeaveOrNot, ExperienceInCurrentDomain, and City~(region).
-You can only modify the <task description>, which means the prompt should start with "Develop a function", then it should end with ", where you can use the following attributes: Education, JoiningYear, PaymentTier, Age, Gender, Everbenched, LeaveOrNot, ExperienceInCurrentDomain, and City~(region)."
+Develop a function <1>, where you can use the following attributes: Education, JoiningYear, PaymentTier, Age, Gender, Everbenched, LeaveOrNot, ExperienceInCurrentDomain, and City~(region).
+You can only modify the <1>, which means the prompt should start with "Develop a function", then it should end with ", where you can use the following attributes: Education, JoiningYear, PaymentTier, Age, Gender, Everbenched, LeaveOrNot, ExperienceInCurrentDomain, and City~(region)."
 For example:
 1.Develop a function for assessing the employability of an individual, where you can use the following attributes: Education, JoiningYear, PaymentTier, Age, Gender, Everbenched, LeaveOrNot, ExperienceInCurrentDomain, and City~(region).
 2.Develop a function to recommend suitable employment opportunities for an individual, where you can use the following attributes: Education, JoiningYear, PaymentTier, Age, Gender, Everbenched, LeaveOrNot, ExperienceInCurrentDomain, and City~(region).

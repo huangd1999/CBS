@@ -48,11 +48,10 @@ if __name__ == '__main__':
 
 
 
-# (base) dong@MacBook-Pro Downloads % python process_dataset.py
+# python process_dataset.py
 # Brute-force Test Generation: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████| 699840/699840 [01:22<00:00, 8454.41it/s]
 # Optimized Bias Detection: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 72/72 [00:00<00:00, 7496.15it/s]
 # Random Selection Strategy: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 12/12 [00:00<00:00, 7977.75it/s]
 # Brute-force method time: 97.89599084854126 seconds
 # Optimized bias detection time: 0.5807149410247803 seconds
 # Random selection strategy time: 0.5198347568511963 seconds
-# (base) dong@MacBook-Pro Downloads % 
